@@ -32,7 +32,6 @@ static NSUInteger const CBWImageViewCount = 3;
 
 - (instancetype)initWithFrame:(CGRect)frame imageUrs:(NSArray *)imageUrls updateInterval:(NSTimeInterval )updateInterval placeHoldImage:(UIImage *)placeHoldImage{
     
-    
     //对象本质是一个指针,类本质是一个结构体;指针不停的指向,但是一条一条指过来最终是类这个结构体;
     
     CBWInfiniteBanner *infiniteScrollView = [self initWithFrame:frame];
@@ -181,7 +180,6 @@ static NSUInteger const CBWImageViewCount = 3;
             imageIndex = 0;
         }
         
-        //设置占位图片
         UIImage *placeHoldImage = self.placeHoldImage?self.placeHoldImage:[UIImage imageNamed:@"banner_loading"];
         
         [imageView sd_setImageWithURL:[NSURL URLWithString:self.imageUrls[imageIndex]] placeholderImage:placeHoldImage];

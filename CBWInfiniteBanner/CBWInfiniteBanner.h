@@ -8,12 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
+@class CBWInfiniteBanner;
+typedef void(^CBWInfiniteBannerClickBlock) (NSInteger index);
+
 @interface CBWInfiniteBanner : UIView
 /** 网络图片urls */
 @property (nonatomic, strong) NSArray *imageUrls;
 
 /** 点击事件的 block*/
-@property (nonatomic ,copy) void(^clickBlock)(NSInteger index);
+@property (nonatomic ,copy) CBWInfiniteBannerClickBlock clickBlock;
 
 /** bannerPageIndicatorTintColor*/
 @property (nonatomic ,strong) UIColor *bannerPageIndicatorTintColor;
