@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B684C57DF9E29C84DAA694FF /* libPods-CBWInfiniteBannerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 80D1949BF26D39785089021D /* libPods-CBWInfiniteBannerDemo.a */; };
+		D00FD4CB1D6F00D700525FF1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D00FD4CA1D6F00D700525FF1 /* main.m */; };
+		D00FD4CE1D6F00D700525FF1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D00FD4CD1D6F00D700525FF1 /* AppDelegate.m */; };
+		D00FD4D11D6F00D700525FF1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D00FD4D01D6F00D700525FF1 /* ViewController.m */; };
+		D00FD4D41D6F00D700525FF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D00FD4D21D6F00D700525FF1 /* Main.storyboard */; };
+		D00FD4D61D6F00D700525FF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D00FD4D51D6F00D700525FF1 /* Assets.xcassets */; };
+		D00FD4D91D6F00D700525FF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D00FD4D71D6F00D700525FF1 /* LaunchScreen.storyboard */; };
+		D00FD4E31D6F011300525FF1 /* CBWInfiniteBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = D00FD4E21D6F011300525FF1 /* CBWInfiniteBanner.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0C14043966F8FDB6A34781DB /* Pods-CBWInfiniteBannerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CBWInfiniteBannerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CBWInfiniteBannerDemo/Pods-CBWInfiniteBannerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		6C01F1F2A0B9133D256881A1 /* Pods-CBWInfiniteBannerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CBWInfiniteBannerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CBWInfiniteBannerDemo/Pods-CBWInfiniteBannerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		80D1949BF26D39785089021D /* libPods-CBWInfiniteBannerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CBWInfiniteBannerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D00FD4C61D6F00D700525FF1 /* CBWInfiniteBannerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CBWInfiniteBannerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D00FD4CA1D6F00D700525FF1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D00FD4CC1D6F00D700525FF1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D00FD4CD1D6F00D700525FF1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D00FD4CF1D6F00D700525FF1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D00FD4D01D6F00D700525FF1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D00FD4D31D6F00D700525FF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D00FD4D51D6F00D700525FF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D00FD4D81D6F00D700525FF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D00FD4DA1D6F00D700525FF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D00FD4E11D6F011300525FF1 /* CBWInfiniteBanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBWInfiniteBanner.h; sourceTree = "<group>"; };
+		D00FD4E21D6F011300525FF1 /* CBWInfiniteBanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBWInfiniteBanner.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D00FD4C31D6F00D700525FF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B684C57DF9E29C84DAA694FF /* libPods-CBWInfiniteBannerDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		476956DCD8132A2269C5390C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C14043966F8FDB6A34781DB /* Pods-CBWInfiniteBannerDemo.debug.xcconfig */,
+				6C01F1F2A0B9133D256881A1 /* Pods-CBWInfiniteBannerDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		71301CEFDAE6F9AA9697BC8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80D1949BF26D39785089021D /* libPods-CBWInfiniteBannerDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D00FD4BD1D6F00D700525FF1 = {
+			isa = PBXGroup;
+			children = (
+				D00FD4E01D6F010800525FF1 /* CBWInfiniteBanner */,
+				D00FD4C81D6F00D700525FF1 /* CBWInfiniteBannerDemo */,
+				D00FD4C71D6F00D700525FF1 /* Products */,
+				476956DCD8132A2269C5390C /* Pods */,
+				71301CEFDAE6F9AA9697BC8A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D00FD4C71D6F00D700525FF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D00FD4C61D6F00D700525FF1 /* CBWInfiniteBannerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D00FD4C81D6F00D700525FF1 /* CBWInfiniteBannerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D00FD4CC1D6F00D700525FF1 /* AppDelegate.h */,
+				D00FD4CD1D6F00D700525FF1 /* AppDelegate.m */,
+				D00FD4CF1D6F00D700525FF1 /* ViewController.h */,
+				D00FD4D01D6F00D700525FF1 /* ViewController.m */,
+				D00FD4D21D6F00D700525FF1 /* Main.storyboard */,
+				D00FD4D51D6F00D700525FF1 /* Assets.xcassets */,
+				D00FD4D71D6F00D700525FF1 /* LaunchScreen.storyboard */,
+				D00FD4DA1D6F00D700525FF1 /* Info.plist */,
+				D00FD4C91D6F00D700525FF1 /* Supporting Files */,
+			);
+			path = CBWInfiniteBannerDemo;
+			sourceTree = "<group>";
+		};
+		D00FD4C91D6F00D700525FF1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D00FD4CA1D6F00D700525FF1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D00FD4E01D6F010800525FF1 /* CBWInfiniteBanner */ = {
+			isa = PBXGroup;
+			children = (
+				D00FD4E11D6F011300525FF1 /* CBWInfiniteBanner.h */,
+				D00FD4E21D6F011300525FF1 /* CBWInfiniteBanner.m */,
+			);
+			path = CBWInfiniteBanner;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D00FD4C51D6F00D700525FF1 /* CBWInfiniteBannerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D00FD4DD1D6F00D700525FF1 /* Build configuration list for PBXNativeTarget "CBWInfiniteBannerDemo" */;
+			buildPhases = (
+				38EEDD134CCAA4F48DA9A0A0 /* [CP] Check Pods Manifest.lock */,
+				D00FD4C21D6F00D700525FF1 /* Sources */,
+				D00FD4C31D6F00D700525FF1 /* Frameworks */,
+				D00FD4C41D6F00D700525FF1 /* Resources */,
+				E22626EEFC1817340D4BE0FF /* [CP] Embed Pods Frameworks */,
+				DFEDD162BCD8BEF6D187DD18 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CBWInfiniteBannerDemo;
+			productName = CBWInfiniteBannerDemo;
+			productReference = D00FD4C61D6F00D700525FF1 /* CBWInfiniteBannerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D00FD4BE1D6F00D700525FF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "陈博文";
+				TargetAttributes = {
+					D00FD4C51D6F00D700525FF1 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = D00FD4C11D6F00D700525FF1 /* Build configuration list for PBXProject "CBWInfiniteBannerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D00FD4BD1D6F00D700525FF1;
+			productRefGroup = D00FD4C71D6F00D700525FF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D00FD4C51D6F00D700525FF1 /* CBWInfiniteBannerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D00FD4C41D6F00D700525FF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D00FD4D91D6F00D700525FF1 /* LaunchScreen.storyboard in Resources */,
+				D00FD4D61D6F00D700525FF1 /* Assets.xcassets in Resources */,
+				D00FD4D41D6F00D700525FF1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		38EEDD134CCAA4F48DA9A0A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DFEDD162BCD8BEF6D187DD18 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CBWInfiniteBannerDemo/Pods-CBWInfiniteBannerDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E22626EEFC1817340D4BE0FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CBWInfiniteBannerDemo/Pods-CBWInfiniteBannerDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D00FD4C21D6F00D700525FF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D00FD4D11D6F00D700525FF1 /* ViewController.m in Sources */,
+				D00FD4CE1D6F00D700525FF1 /* AppDelegate.m in Sources */,
+				D00FD4E31D6F011300525FF1 /* CBWInfiniteBanner.m in Sources */,
+				D00FD4CB1D6F00D700525FF1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D00FD4D21D6F00D700525FF1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D00FD4D31D6F00D700525FF1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D00FD4D71D6F00D700525FF1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D00FD4D81D6F00D700525FF1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D00FD4DB1D6F00D700525FF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D00FD4DC1D6F00D700525FF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D00FD4DE1D6F00D700525FF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C14043966F8FDB6A34781DB /* Pods-CBWInfiniteBannerDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CBWInfiniteBannerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cbw.CBWInfiniteBannerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D00FD4DF1D6F00D700525FF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C01F1F2A0B9133D256881A1 /* Pods-CBWInfiniteBannerDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CBWInfiniteBannerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cbw.CBWInfiniteBannerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D00FD4C11D6F00D700525FF1 /* Build configuration list for PBXProject "CBWInfiniteBannerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D00FD4DB1D6F00D700525FF1 /* Debug */,
+				D00FD4DC1D6F00D700525FF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D00FD4DD1D6F00D700525FF1 /* Build configuration list for PBXNativeTarget "CBWInfiniteBannerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D00FD4DE1D6F00D700525FF1 /* Debug */,
+				D00FD4DF1D6F00D700525FF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D00FD4BE1D6F00D700525FF1 /* Project object */;
+}
