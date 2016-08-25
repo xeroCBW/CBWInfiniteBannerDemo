@@ -14,15 +14,16 @@
 
 - 1.全能初始化方法
   + 全能创建方法需要在初始化的时候传入:
-1.Frame
-2.imageUrls
-3.updateInterval(默认3.0s)
-4.placeHoldImage(默认占位图片为图片正在加载中)
+  
+	1. Frame
+	2. imageUrls
+	3. updateInterval(默认3.0s)
+	4. placeHoldImage(默认占位图片为图片正在加载中)
 
 - 2.快速创建方法
   + 快速创建方法需要在初始化后设置:
-1.Frame
-2.imageUrls
+	1. Frame
+	2. imageUrls
 注意:点击事件是否实现:根据需要
 
 
