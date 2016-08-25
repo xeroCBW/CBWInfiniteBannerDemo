@@ -18,7 +18,7 @@
 @property (nonatomic ,weak) UILabel *label;
 
 /** isTouch*/
-@property (nonatomic ,assign) BOOL isTouch;
+@property (nonatomic ,weak) UIButton *button;
 
 @end
 
@@ -48,6 +48,16 @@
     label.text = @"点击view可以切换图片数组\n点击 banner 可以显示选中的 index";
     self.label = label;
     [self.view addSubview:label];
+    
+    UIButton *button = [[UIButton alloc]init];
+    button.frame = CGRectMake(0, 0, 200, 40);
+    [button addTarget:self action:@selector(changeImageArray) forControlEvents:UIControlEventTouchUpInside];
+    button.backgroundColor = [UIColor greenColor];
+    [button setTitle:@"点我切换图片数组" forState:UIControlStateNormal];
+    button.center = CGPointMake(self.view.center.x, 400);
+    self.button = button;
+    
+    [self.view addSubview:button];
 
 }
 
@@ -117,12 +127,11 @@
  * 验证切换图片,不会崩溃
  */
 
--(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+- (void)changeImageArray{
     
-    self.isTouch = !self.isTouch;
+    self.button.selected = !self.button.selected;
     
-    
-    if (self.isTouch) {
+    if (self.button.selected) {
         
         self.banner.imageUrls = @[
                                   @"http://www.qqya.com/qqyaimg/allimg/140227/1KI36229-3.jpg"
@@ -139,8 +148,6 @@
                                   @"http://www.qqya.com/qqyaimg/allimg/140227/1KI36229-3.jpg"
                                   ];
     }
-    
 }
-
 @end
 

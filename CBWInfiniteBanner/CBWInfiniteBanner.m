@@ -51,6 +51,7 @@ static NSUInteger const CBWImageViewCount = 3;
         UIScrollView *scrollView = [[UIScrollView alloc] init];
         scrollView.showsVerticalScrollIndicator = NO;
         scrollView.showsHorizontalScrollIndicator = NO;
+//        scrollView.bounces = NO;
         scrollView.pagingEnabled = YES;
         scrollView.delegate = self;
         [self addSubview:scrollView];
