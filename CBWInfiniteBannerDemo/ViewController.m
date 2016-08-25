@@ -45,7 +45,7 @@
     label.center = CGPointMake(self.view.center.x, 60);
     label.backgroundColor = [UIColor lightGrayColor];
     label.textAlignment = NSTextAlignmentCenter;
-    label.text = @"点击view可以切换图片数组\n点击 banner 可以显示选中的 index";
+    label.text = @"点击button可以切换图片数组\n点击 banner 可以显示选中的 index";
     self.label = label;
     [self.view addSubview:label];
     
