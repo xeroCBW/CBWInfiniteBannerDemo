@@ -52,7 +52,7 @@
     UIButton *button = [[UIButton alloc]init];
     button.frame = CGRectMake(0, 0, 200, 40);
     [button addTarget:self action:@selector(changeImageArray) forControlEvents:UIControlEventTouchUpInside];
-    button.backgroundColor = [UIColor greenColor];
+    button.backgroundColor = [UIColor orangeColor];
     [button setTitle:@"点我切换图片数组" forState:UIControlStateNormal];
     button.center = CGPointMake(self.view.center.x, 400);
     self.button = button;
